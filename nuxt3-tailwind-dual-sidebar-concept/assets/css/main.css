@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply min-h-screen !important;
+}
+body {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply min-h-screen h-full 
+}
+#__nuxt {
+    @apply min-h-screen h-full
+}
+
+/* CS Container with responsive padding */
+.cs-container {
+    @apply mx-auto flex max-w-screen-2xl items-center justify-between py-6 px-4 sm:px-6 lg:px-[50px];
+}
